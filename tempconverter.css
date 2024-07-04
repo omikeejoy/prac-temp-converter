@@ -1,0 +1,68 @@
+body {
+    color: #5484B3;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #5484B3;
+    border-radius: 5px;
+    max-width: 40%;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#symbol{
+    font-size: 20px;
+}
+
+.content-box input {
+    border: 0;
+    padding: 5px;
+    margin: 5px 0;
+
+}
+
+input, select, textarea {
+    color: #5484B3;
+}
+.content-box label {
+    border-top: 1px solid #5484B3;
+    margin: 0;
+    padding: 7px;
+}
+
+.content-box ::placeholder {
+    color: #5484B3;
+}
+
+#converter-btn, #clear-btn {
+    border: 1px solid #5484B3;
+    border-radius: 5px;
+    color: #5484B3;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+#converter-btn:hover {
+    color: white;
+    background-color: #5484B3;
+
+}
+
+#clear-btn:hover {
+    color: white;
+    background-color: #5484B3;
+}
+
